@@ -1,0 +1,150 @@
+@import url('./equipe.css');
+
+
+#lieux, #contact{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#contact{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: solid blue; */
+}
+
+.containerLieux{
+    width: 80%;
+}
+
+.containerLieuxRow{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.titre{
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.ligne {
+    width: 40%;
+    border-top: 1px solid black;
+}
+
+.photos{
+    justify-content: space-around;
+}
+
+h1, h2{
+    text-align: center;
+    padding: 1% 2%;
+}
+
+
+p{
+    color: black;
+    line-height: 150%;
+    text-align: center;
+}
+
+.containerContact{
+    width: 70%;
+    justify-content: center;
+
+
+}
+
+.cocon{
+    margin-top: 5%;
+    text-align: center;
+}
+
+.paragraphe{
+    margin: auto;
+    text-align: center;
+    width: 100%;
+}
+
+
+.contact{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 2%;
+}
+
+
+.adresse{
+    border: solid #AC1E64;
+    border-radius: 15px;
+    width: 30%;
+    padding: 10px;
+    box-shadow: 10px 5px 5px #AC1E64;
+    margin-bottom: 30px;
+}
+
+.horaires{
+    border: solid #F8B202;
+    border-radius: 15px;
+    width: 30%;
+    padding: 10px;
+    box-shadow: 10px 5px 5px #F8B202;
+    margin-bottom: 30px;
+}
+
+  @media only screen and (max-width: 300px) {
+
+    .titre h1 {
+        font-size: 80%;
+    }
+
+  }
+
+  @media only screen and (max-width: 300px) {
+
+    .titre h1 {
+        font-size: 80%;
+    }
+
+  }
+
+#contact .contact {
+    align-items: stretch;
+}
+
+.icone{
+    height: 30px;
+}
+
+table {
+    font-family: var(--paragraphe-font);
+    font-size: var(--paragrapheSize);
+    color: var(--bleuFonce);
+    line-height: 150%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+td{
+    padding-right: 15px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .contact{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .adresse, .horaires{
+        width: 100%;
+        margin-right: 2%;
+    }
+    
+  }

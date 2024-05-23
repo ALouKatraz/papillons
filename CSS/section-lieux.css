@@ -1,0 +1,103 @@
+@import url('./equipe.css');
+
+
+#lieux, #contact{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#contact{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: solid blue; */
+}
+
+.containerLieux{
+    width: 80%;
+}
+
+.containerLieuxRow{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.containerLieuxRow img {
+    width: 80%;
+}
+
+.titre{
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+.ligne {
+    width: 40%;
+    border-top: 1px solid black;
+}
+
+.photos{
+    justify-content: space-between;
+}
+
+h1, h2{
+    text-align: center;
+    padding: 1% 2%;
+}
+
+
+p{
+    color: black;
+    line-height: 150%;
+}
+
+.containerContact{
+    width: 60%;
+    /* border: solid red; */
+}
+
+.cocon{
+    margin-top: 5%;
+    text-align: center;
+}
+
+.paragraphe{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 2%;
+    width: 70%;
+}
+/* ************** */
+.contact{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.adresse{
+    border: solid #AC1E64;
+    border-radius: 15px;
+    width: 40%;
+    padding: 20px;
+}
+
+.horaires{
+    border: solid #F8B202;
+    border-radius: 15px;
+    width: 40%;
+    padding: 20px;
+}
+
+/* .horaires>h2>p{
+    display: flex;
+    justify-content: center;
+} */
+
+.icone{
+    height: 30px;
+}

@@ -1,0 +1,58 @@
+
+    /********** Footer******************/
+
+#Footer{
+    background-color: #1B7F7A;
+    padding: 20px;
+    color: #FFF;
+    bottom: 0;   
+    margin-top: 5%;  
+}
+
+#Footer a{
+    color: #FFF;
+    text-decoration: none;
+    margin-right: 10px;
+}
+#Footer h2{
+    color: #FFF;
+    margin-bottom: 15px;
+    font-size: 120%;
+
+}
+#Footer .container > div{
+    width : 45%;
+    height: auto;
+}
+#Footer .containerColumn{
+    text-align: left;
+}
+
+
+#Footer .container  {
+    display: flex;
+    flex-direction: row;
+    min-width: 100%;
+    justify-content: space-between;
+}
+#Footer .menufooter h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#Footer .logofooter{
+    text-align: right;
+}
+.container{
+    display: flex;
+    justify-content: center;
+   
+}
+.containerColumn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+

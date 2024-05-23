@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css?family=Alex Brush");
+@import url("https://fonts.googleapis.com/css?family=Fjalla One");
+@import url("https://fonts.googleapis.com/css?family=Prata");
+
+/* ******************************Les variables********************************* */
+:root {
+  --primary-font: Alex Brush;
+  --titre-font: Fjalla One;
+  --paragraphe-font: Prata;
+  --rose: #ac1e64;
+  --roseOpacity: 40%;
+  --bleuFonce: #004440;
+  --bleu: #1b7f7a;
+  --bleuOpacity: 60%;
+  --jaune: #f8b202;
+  --jauneOpacity: 60%;
+  --gris: #f2f2f2;
+  --primarytitreSize: 32px;
+  --secondarytitreSize: 26px;
+  --paragrapheSize: 16px;
+  --borderRadiusImage: 75px;
+  --borderRadiusCadre: 15px;
+  --borderRadiusbtn: 12px;
+}
+/* **************************La base*************************** */
+h1,
+h2 {
+  font-family: var(--titre-font);
+  color: var(--bleuFonce);
+}
+
+h1 {
+  font-size: var(--primarytitreSize);
+}
+
+h2 {
+  font-size: var(--secondarytitreSize);
+}
+
+p {
+  font-family: var(--paragraphe-font);
+  font-size: var(--paragrapheSize);
+  color: var(--bleuFonce);
+}
+
+body {
+  background-color: var(--gris);
+}
+
+section {
+  padding: 20px;
+}
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* ******************************Notre équipe************************************* */
+
+#equipe {
+  /*height: 100vh;*/
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+
+.container {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+
+.ligne {
+<<<<<<< Updated upstream
+  width: 340px;
+  border-top: var(--gris);
+  border-right: var(--gris);
+  border-left: var(--gris);
+  height: 0.001px;
+  border: 1px solid var(--bleuFonce);
+  background-color: var(--bleuFonce);
+  margin: 20px;
+=======
+    width:340px;
+    border-top: var(--gris);
+    border-right: var(--gris);
+    border-left: var(--gris);
+    height: 0.001px;
+    border: 1px solid var(--bleuFonce);
+    background-color: var(--bleuFonce);
+    margin: 20px;
+>>>>>>> Stashed changes
+}
+
+a {
+  color: var(--bleuFonce);
+  text-decoration: none;
+  width: 27px;
+  height: 40px;
+}
+
+.btn {
+  margin-top: 20px;
+  background-color: var(--jaune);
+  border-radius: var(--borderRadiusbtn);
+  border: none;
+  padding: 10px;
+}
+
+#equipe .containerContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  box-sizing: border-box;
+}
+
+
+#equipe #prezEssya, #dotEssya {
+  background-color: rgba(248, 178, 4, 0.6);
+}
+
+#prezEssya {
+  padding-bottom: 45px;
+}
+
+#prezMarie {
+  padding-bottom: 40px;
+}
+
+#equipe #prezFatma, #dotFatma {
+  background-color: rgba(27, 127, 122, 0.6);
+} 
+
+#equipe #prezMarie, #dotMarie {
+  background-color: rgba(172, 30, 100, 0.4);
+} 
+
+#equipe .containerColumn {
+  height: auto;
+  border: 0;
+  width: 290px !important;
+  margin: 0px;
+}
+
+#equipe .containerRowEquipe {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  gap: 30px;
+}
+
+@media only screen and (max-width: 1000px) {
+  #equipe .containerRowEquipe {
+     flex-wrap: wrap;
+  }
+}
+.text-align-center {
+  text-align:center;
+}
+
+.dot {
+  width: 330px;
+  height: 280px;
+  background-color: #bbb;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#equipe img{
+  /*height: 100vh;*/
+  max-width: 70%;
+  border-radius: 50%;
+}

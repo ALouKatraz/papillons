@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Le Cocon des Petits Papillons</title>
+    <link rel="stylesheet" href="./CSS/reset.css" />
+
+    <!--link rel="stylesheet" href="variables.css"-->
+    <link rel="stylesheet" href="./CSS/variables.css" />
+
+    <!--link rel="stylesheet" href="layout.css"-->
+    <link rel="stylesheet" href="./CSS/layout.css" />
+
+    <!--link rel="stylesheet" href="base.css"-->
+    <link rel="stylesheet" href="./CSS/base.css" />
+
+    <!--link rel="stylesheet" href="footer.css"-->
+    <link rel="stylesheet" href="./CSS/footer.css" />
+
+    <!--link rel="stylesheet" href="header.css"-->
+    <link rel="stylesheet" href="./CSS/header.css" />
+
+    <!--link rel="stylesheet" href="main.css"-->
+    <link rel="stylesheet" href="./CSS/main.css" />
+
+    <link rel="stylesheet" href="./CSS/section-presentation.css" />
+
+    <link rel="stylesheet" href="./CSS/section-citation.css" />
+
+    <link rel="stylesheet" href="./CSS/section-lieux.css" />
+
+    <link rel="stylesheet" href="./CSS/section-contact.css" />
+
+    <link rel="stylesheet" href="./CSS/section-nosMissions.css" />
+    <link rel="stylesheet" href="./CSS/section-equipe.css" />
+
+    <link rel="stylesheet" href="./CSS/section-activites.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        $("#content").append($("<div>").load("header.html"));
+        $("#content").append($("<div>").load("section-presentation.html"));
+        $("#content").append($("<div>").load("section-missions.html"));
+        $("#content").append($("<div>").load("section-activites.html"));
+        $("#content").append($("<div>").load("section-slider.html"));
+        $("#content").append($("<div>").load("section-equipe.html"));
+        $("#content").append($("<div>").load("section-citation.html"));
+        $("#content").append($("<div>").load("section-Lieux.html"));
+        $("#content").append($("<div>").load("section-contact.html"));
+        $("#content").append($("<div>").load("footer.html"));
+      });
+    </script>
+  </head>
+  <body>
+    <main>
+      <!-- Section header -->
+
+      <div id="content"></div>
+
+      <!-- Section présentation -->
+      <!-- <section id="presentation">
+        <div class="container">
+          <div class="containerColumn">
+            <h1></h1>
+            <p></p>
+          </div>
+          <div>
+            <div>
+              <img src="#" alt="" />
+            </div>
+            <button class="btn">
+              <a href="#">Contactez notre équipe</a>
+            </button>
+          </div>
+        </div>
+      </section>-->
+
+      <!-- section missions -->
+
+      <!--<section id="missions">
+        <div class="container">
+          <div class="containerRow">
+            <div></div>
+            <h1></h1>
+            <div></div>
+
+            <div class="containerRow">
+              <div class="containerColumn">
+                <h2></h2>
+                <p></p>
+              </div>
+
+              <div class="containerColumn">
+                <img src="#" alt="" />
+              </div>
+
+              <div class="containerColumn">
+                <h2></h2>
+                <p></p>
+              </div>
+            </div>
+          </div>
+          <button class="btn">
+            <a href="#">Contactez notre équipe</a>
+          </button>
+        </div>
+      </section>-->
+
+      <!-- section activites -->
+
+      <!-- 
+        <section id="activites">
+        <div class="container">
+          <div class="containerRow">
+            <div></div>
+            <h1></h1>
+            <div></div>
+          </div>
+
+          <div class="container">
+            <div class="containerRow">
+              <div class="containerColumn">
+                <h2></h2>
+                <p></p>
+              </div>
+              <div>
+                <img src="#" alt="" />
+              </div>
+              <div class="containerColumn">
+                <h2></h2>
+                <p></p>
+              </div>
+            </div>
+          </div>
+          <button class="btn">
+            <a href="#">Contactez notre équipe</a>
+          </button>
+        </div>
+      </section>
+    -->
+      <!-- Section Slider -->
+      <!--
+      <section id="slider">
+        <div class="container">
+          <img src="#" alt="" />
+          <div>
+            <img src="#" alt="" />
+          </div>
+          <div>
+            <img src="#" alt="Flèche permettant de canger de photo" />
+          </div>
+        </div>
+      </section>
+    --></main>
+  </body>
+</html>

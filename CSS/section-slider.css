@@ -1,0 +1,49 @@
+#slider {
+  position: relative;
+  width: 80%;
+  margin: auto;
+  max-width: 1200px;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+}
+
+#precedent,
+#suivant {
+  curser: pointer;
+  opacity: 0;
+  position: absolute;
+  transition: opacity 2s ease;
+  font-size: 50px;
+  color: white;
+  height: 400px;
+  weight: 400px;
+  top: 40%;
+}
+#suivant {
+  right: 8px;
+}
+
+#precedent {
+  left: 0;
+}
+
+#slider:hover #precedent {
+  opacity: 1;
+}
+
+#slider:hover #suivant {
+  opacity: 1;
+}
+
+@media screen and (max-width: 1342px) {
+  #slider {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1342px) {
+  img {
+    width: 100%;
+  }
+}

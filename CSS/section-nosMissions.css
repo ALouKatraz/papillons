@@ -1,0 +1,113 @@
+@import url('./section-equipe.css');
+
+#NosMissions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ligne{
+    width: 40%;
+    border: 1px solid black;
+    margin-top: 2px;
+}
+
+#background {
+    background-color:  #1B7F7A;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    
+}
+
+
+.containerNosMissionsRow {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    width: 100%;
+}
+h1 {
+    color: #004440;
+    
+    }
+
+#NosMissions h2 {
+    color: #00FFF2;
+    margin-bottom: 20px;
+}
+
+
+#NosMissions p {
+    text-align: left;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: #ffffff; 
+}
+
+#imgMissions {
+    width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+
+#imgMissions {
+    width: 50%;
+}
+}
+@media screen and (max-width: 900px) {
+    #background {
+        background-color:  #1B7F7A;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+  }
+
+
+#imgMissions {
+    width: 50%;
+}
+
+#NosMissions p {
+    text-align: left;
+    /* margin-left: 10px;
+    margin-right: 10px; */
+    color: #ffffff; 
+}
+}
+
+@media screen and (max-width: 480px) {
+    #background {
+        background-color:  #1B7F7A;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+  }
+
+
+#NosMissions p {
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #ffffff; 
+}
+
+#imgMissions {
+    width: 100%;
+}
+
+}

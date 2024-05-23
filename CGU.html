@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>‘Le Cocon des Petits Papillons’</title>
+    <link rel="stylesheet" href="./CSS/reset.css" />
+
+    <!--link rel="stylesheet" href="variables.css"-->
+    <link rel="stylesheet" href="./CSS/variables.css" />
+
+    <!--link rel="stylesheet" href="layout.css"-->
+    <link rel="stylesheet" href="./CSS/layout.css" />
+
+    <!--link rel="stylesheet" href="base.css"-->
+    <link rel="stylesheet" href="./CSS/base.css" />
+
+    <!--link rel="stylesheet" href="footer.css"-->
+    <link rel="stylesheet" href="./CSS/footer.css" />
+
+    <!--link rel="stylesheet" href="header.css"-->
+    <link rel="stylesheet" href="./CSS/header.css" />
+
+    <!--link rel="stylesheet" href="main.css"-->
+    <link rel="stylesheet" href="./CSS/main.css" />
+
+    <link rel="stylesheet" href="./CSS/CGU.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        $("#header").append($("<div>").load("header.html"));
+        $("#footer").append($("<div>").load("footer.html"));
+      });
+    </script>
+  </head>
+  <body>
+    <main>
+      <!-- Section header -->
+
+      <div id="header"></div>
+
+      <div class="containerCGU">
+          <h1 class="conditions titre">Les conditions générales d’utilisation</h1>
+          <div class="paragraphe">
+              <p>Bienvenue sur ‘Le Cocon des Petits Papillons’ !
+              </br>
+                En utilisant ce site, vous acceptez les conditions générales énoncées ci-dessous. Veuillez les lire attentivement.
+              </br>
+                <u>Propriété intellectuelle :</u> Le contenu de ce site est la propriété exclusive de ‘‘Le Cocon des Petits Papillons’’.  Toute reproduction non autorisée est strictement interdite.
+              </br>
+                <u>Utilisation autorisée :</u> Vous êtes autorisés à naviguer sur le site et à utiliser son contenu à des fins personnelles. Toute utilisation commerciale est soumise à approbation.
+              </br>
+              <u>Liens externes :</u>  ‘Le Cocon des Petits Papillons’ n'est pas responsable du contenu des sites liés. L'accès à ces liens est à vos propres risques.
+              </br>
+                <u>Modifications :</u> ‘Le Cocon des Petits Papillons’ se réserve le droit de modifier ces conditions à tout moment. Les utilisateurs seront informés des changements majeurs.
+              </br>
+                A très vite !
+              </p>
+          </div>
+        </div>
+      
+      <div id="footer"></div>
+
+    </main>
+  </body>
+</html>

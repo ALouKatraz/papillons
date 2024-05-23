@@ -1,0 +1,48 @@
+@import url('./equipe.css');
+
+
+#lieux, #contact{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#contact{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: solid blue; */
+}
+
+.containerCGU{
+    margin: auto;
+    width: 80%;
+    border: solid var(--bleuFonce) 1px;
+}
+
+.titre{
+    align-items: center;
+    justify-content: center;
+}
+
+.ligne {
+    width: 40%;
+    border-top: 1px solid black;
+}
+
+h1{
+    text-align: center;
+    padding: 1% 2%;
+}
+
+p{
+    color: black;
+    line-height: 150%;
+}
+
+.paragraphe{
+    margin: auto;
+    text-align: center;
+    padding: 2%;
+    width: 70%;
+}

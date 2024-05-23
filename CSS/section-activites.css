@@ -1,0 +1,111 @@
+@import url('./equipe.css');
+
+/* .activity #titre {
+    margin-bottom: 10%;
+} */
+
+.activity img {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.activity h2 {
+    margin-bottom: 10px;
+}
+
+.activity .containerContent {
+    padding: 20px;
+    border-radius: 25px;
+    border: 1px solid transparent;
+    box-shadow: none;
+    width: 100%;
+}
+
+.activity .containerColumn {
+    width: 100%;
+}
+
+.activity .containerRow {
+    margin-bottom: 50px;
+}
+/**************************************************** */
+
+@media screen and (max-width: 700px) {
+    .activity .containerRow:nth-of-type(2)
+{
+    display: flex;
+    flex-direction: column;
+    }
+  
+    .activity .containerColumn {
+        width: 80%;
+    }
+
+    .activity .containerContent {
+        width: 90%;
+    }
+
+    .activity img {
+        margin-bottom: 20px;
+        width: 60%;
+    }
+  }
+/* ******************************************** */
+
+@media screen and (max-width: 480px) {
+    .activity .containerRow:nth-of-type(2)
+{
+    display: flex;
+    flex-direction: column;
+    }
+  
+    .activity .containerColumn {
+        width: 80%;
+    }
+
+    .activity .containerContent {
+        width: 100%;
+    }
+
+    .activity img {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+  }
+
+
+#cuisine {
+    box-shadow: 3px 6px 5.2px #1B7F7A;
+    border: 1px solid #1B7F7A;
+}
+
+#sport {
+    box-shadow: 3px 6px 5.2px #F8B202;
+    border: 1px solid #F8B202;
+    margin-bottom: 30px;
+}
+
+#lecture {
+    border: 1px solid #AC1E64;
+    box-shadow: 3px 6px 5.2px #AC1E64;
+}
+
+.lasuite {
+    color: brown;
+    font-variant: small-caps;
+}
+
+.demasquer {
+    display: none;
+  
+}
+
+.containerContent:hover .demasquer {
+    display: inline;
+}
+
+.containerContent:hover .lasuite {
+    display: none;
+}
+
+
